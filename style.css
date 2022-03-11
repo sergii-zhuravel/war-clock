@@ -47,6 +47,29 @@ body {
     text-shadow: 0px -2px 3px #fff, 0px -2px 10px #FF3, 0px -10px 20px #F90, 0px -20px 40px #C33;
 }
 
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .day,
+    .hour,
+    .minute,
+    .second {
+        font-size: 5rem;
+    }
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .day,
+    .hour,
+    .minute,
+    .second {
+        font-size: 4rem;
+    }
+}
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .title {
@@ -57,29 +80,7 @@ body {
     .hour,
     .minute,
     .second {
-        font-size: 1rem;
+        font-size: 2.5rem;
     }
 
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-    .day,
-    .hour,
-    .minute,
-    .second {
-        font-size: 2rem;
-    }
-}
-
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-    .day,
-    .hour,
-    .minute,
-    .second {
-        font-size: 5rem;
-    }
 }
